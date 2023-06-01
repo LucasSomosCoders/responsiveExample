@@ -1,0 +1,53 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+table,
+tr,
+td {
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+
+.padre {
+  width: 50%;
+  height: 300px;
+  background-color: #43bebc;
+}
+
+.hijo {
+  width: 75%;
+  height: 150px;
+  background-color: rgba(255, 0, 51, 0.5);
+}
+
+.viewport {
+  width: 50vw;
+  height: 100vh;
+  background-color: rgba(9, 147, 62, 0.2);
+}
+
+/*
+Media queries responsive design
+*/
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+    font-size: 20px;
+  }
+
+  li {
+    color: magenta;
+  }
+
+  h3 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: rgb(25, 217, 217);
+  }
+}
